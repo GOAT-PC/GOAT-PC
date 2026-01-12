@@ -68,7 +68,7 @@ Here are some ideas to get you started:
 
 ## 🤝 联系我
 
-- **Email**: raindown95@outlook.com
+- **Email**: feipan41@gmail.com
 - **GitHub**: [GOAT-PC](https://github.com/GOAT-PC)
 
 ---
