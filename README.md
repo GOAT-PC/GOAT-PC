@@ -36,9 +36,9 @@ Here are some ideas to get you started:
 
 ### 2. [Physics-Fitting-AI-Model](https://github.com/GOAT-PC/Physics-Fitting-AI-Model)
 
-瑞孚公司开发的物理拟合 AI 模型 (RF-XDVNet v2)，通过机器学习技术对特定物理参数进行精确预测。该项目提供了一个用户友好的 Windows 可执行程序，支持单点和批量预测模式，无需复杂的环境配置即可使用。
+我开发的物理拟合 AI 模型 (RF-XDVNet v2)，通过机器学习技术对特定物理参数进行精确预测。该项目提供了一个用户友好的 Windows 可执行程序，支持单点和批量预测模式，无需复杂的环境配置即可使用。
 
-- **技术栈**: ONNX, Python (推测), CSV/Excel
+- **技术栈**: ONNX, Python , CSV/Excel
 - **亮点**: 将复杂的物理拟合模型封装为易于部署和使用的工具，广泛应用于需要快速、准确获取物理属性的场景。
 
 ### 3. [Apriltag_Puncture](https://github.com/GOAT-PC/Apriltag_Puncture)
@@ -56,9 +56,9 @@ Here are some ideas to get you started:
 | **AI/ML 框架** | PyTorch, TensorFlow, Scikit-learn, ONNX                           |
 | **数据处理** | Pandas, NumPy, SQL, HDF5                                          |
 | **计算机视觉** | OpenCV, AprilTag, 图像处理                                        |
-| **Web 开发** | HTML, CSS, JavaScript, React (基础)                               |
+| **Web 开发** | HTML, CSS, JavaScript, React                                   |
 | **工具/平台** | Git, GitHub, Docker, Jupyter, VS Code                             |
-| **云服务**   | Google Cloud (基础), AWS (基础)                                   |
+| **云服务**   | Google Cloud , AWS                                    |
 
 ## 📊 GitHub 统计
 
@@ -72,5 +72,3 @@ Here are some ideas to get you started:
 - **GitHub**: [GOAT-PC](https://github.com/GOAT-PC)
 
 ---
-
-✨ 由 Manus AI 自动生成和优化 ✨
