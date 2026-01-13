@@ -1,74 +1,48 @@
 ### Hi there 👋
 
-<!--
-**GOAT-PC/GOAT-PC** is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
 ## 👋 关于我
 
-我是一名专注于 **AI 算法开发** 和 **数据建模** 的工程师。我对将前沿的机器学习技术应用于实际工程问题充满热情，尤其擅长**数字孪生**、**物理拟合**以及**计算机视觉**等领域。我致力于构建高效、可扩展的智能解决方案，并乐于探索新的技术挑战。
+我是一名专注于 **AI 算法开发**、**时序建模** 和 **工业数字孪生** 的工程师。我擅长将复杂的机器学习技术（如时序预测、PINN）转化为可落地的工程解决方案，尤其在**整车热管理**、**物理参数拟合**以及**计算机视觉**领域有深厚的实践经验。
 
-- 🔭 我目前正在探索如何将 AI 模型更好地集成到工业自动化和智能制造中。
-- 🌱 我正在深入学习 MLOps 和高性能计算，以优化模型部署和运行效率。
-- 💬 欢迎与我交流关于 AI、数据科学、数字孪生和计算机视觉的任何话题！
+- 🔭 **核心领域**: 车端多源时序信号建模、物理一致性约束神经网络 (PINN)、边缘端模型部署 (TorchScript/ONNX)。
+- 🌱 **工程实践**: 致力于构建“高精度、低延迟、易维护”的 AI 推理链路，解决实际生产中的安全反序列化与单文件交付等挑战。
+- 💬 **交流探讨**: 欢迎与我交流关于 AI 工业落地、数字孪生、时序预测及机器人视觉的任何话题！
 
-## 🌟 我的精选项目
+## 🌟 精选项目
 
-以下是我在 GitHub 上的一些核心项目，它们展示了我在不同技术领域的实践和探索：
+### 1. [联电整车热管理数字孪生 (时序建模方向)](https://github.com/GOAT-PC/Digital-Twin-AI-Project)
+面向车端多源时序信号（≥【待填】维），构建三工况预测模型，实现“180s 历史 → 360s 预测”的分钟级滚动更新。
+- **技术栈**: PyTorch, TorchScript, ONNX, Flask, PINN
+- **核心价值**: 实现了从数据工程到边缘推理落地的全链路交付，关键指标达到 MAE【待填】。
 
-### 1. [Digital-Twin-AI-Project](https://github.com/GOAT-PC/Digital-Twin-AI-Project)
+### 2. [瑞孚-物理拟合 AI 模型 (RF-XDVNet v2)](https://github.com/GOAT-PC/Physics-Fitting-AI-Model)
+通过机器学习技术对特定物理参数进行精确预测，并封装为零配置的 Windows 可执行工具。
+- **技术栈**: ONNX, 数据归一化, 批量预测引擎
+- **核心价值**: 解决了复杂物理属性快速获取的难题，支持单点与批量预测模式。
 
-一个综合性的数字孪生 AI 解决方案，结合了数据驱动的算法模型和直观的前端可视化界面。该项目涵盖了单制冷、单制热及混合制热模式下的 AI 算法开发，旨在通过智能分析和预测，提升系统运行效率。
-
-- **技术栈**: Python (PyTorch), Jupyter Notebook, HTML/CSS/JavaScript
-- **亮点**: 实现了从数据处理、模型训练到结果展示的全流程，为工业场景提供智能决策支持。
-
-### 2. [Physics-Fitting-AI-Model](https://github.com/GOAT-PC/Physics-Fitting-AI-Model)
-
-我开发的物理拟合 AI 模型 (RF-XDVNet v2)，通过机器学习技术对特定物理参数进行精确预测。该项目提供了一个用户友好的 Windows 可执行程序，支持单点和批量预测模式，无需复杂的环境配置即可使用。
-
-- **技术栈**: ONNX, Python , CSV/Excel
-- **亮点**: 将复杂的物理拟合模型封装为易于部署和使用的工具，广泛应用于需要快速、准确获取物理属性的场景。
-
-### 3. [Apriltag_Puncture](https://github.com/GOAT-PC/Apriltag_Puncture)
-
-一个纯 Python 实现的 AprilTag 视觉基准系统，无需 C 扩展，具有高可移植性和易用性。该项目支持多种 AprilTag 家族的检测与 3D 定位，适用于机器人视觉导航、增强现实和医疗穿刺引导等应用。
-
+### 3. [AprilTag Puncture: 纯 Python 视觉基准系统](https://github.com/GOAT-PC/Apriltag_Puncture)
+高性能、高可移植性的 AprilTag 检测与 3D 定位系统，完全基于 Python 实现，无需 C 扩展。
 - **技术栈**: Python, OpenCV, NumPy
-- **亮点**: 轻量级、易理解的 AprilTag 检测与 3D 定位方案，是作者的毕业设计作品。
+- **核心价值**: 适用于机器人导航与医疗穿刺引导，提供轻量级的视觉定位方案。
 
-## 💻 我的技能栈
+## 💻 技能矩阵
 
-| 类别         | 技能                                                              |
-| :----------- | :---------------------------------------------------------------- | 
-| **编程语言** | Python, JavaScript, C++                                           |
-| **AI/ML 框架** | PyTorch, TensorFlow, Scikit-learn, ONNX                           |
-| **数据处理** | Pandas, NumPy, SQL, HDF5                                          |
-| **计算机视觉** | OpenCV, AprilTag, 图像处理                                        |
-| **Web 开发** | HTML, CSS, JavaScript, React                                   |
-| **工具/平台** | Git, GitHub, Docker, Jupyter, VS Code                             |
-| **云服务**   | Google Cloud , AWS                                    |
+| 类别 | 技能 |
+| :--- | :--- |
+| **算法建模** | 时序预测 (RNN/Seq2Seq), 物理信息神经网络 (PINN), 状态识别 |
+| **工程落地** | TorchScript, ONNX, 模型量化/导出, Flask/FastAPI 接口开发 |
+| **数据工程** | 多源传感器特征融合, 滑窗构造, 异常检测, 自动化清洗流水线 |
+| **计算机视觉** | AprilTag 检测, 3D 位姿估计, 图像处理 |
 
 ## 📊 GitHub 统计
 
 ![GOAT-PC's GitHub stats](https://github-readme-stats.vercel.app/api?username=GOAT-PC&show_icons=true&theme=radical)
-
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=GOAT-PC&layout=compact&theme=radical)
 
 ## 🤝 联系我
 
-- **Email**: feipan41@gmail.com
+- **Email**: raindown95@outlook.com
 - **GitHub**: [GOAT-PC](https://github.com/GOAT-PC)
 
 ---
+✨ 由 Manus AI 自动生成和优化 ✨
